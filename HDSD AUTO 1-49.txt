@@ -1,0 +1,20 @@
+Bản này bên mình đã Fix Relogin, Tele quái nhanh, đánh quái nhanh ,... 
+
+Lệnh chat: 
+- a : sau khi pt đủ thành viên nhóm, chủ nhóm chat "a" thì all acc sẽ đi auto nv1-49 
+- asX: X là chữ cái viết tắt của phái (ví dụ tiêu là t, kiếm là k... kunai là u) 
+- addn: add thành viên khác vào nhóm
+- cn : xóa nhóm
+- sn : lưu nhóm 
+- ltd : lưu tọa độ bạn muốn hồi sinh
+- kX : Chuyển khu X, X là số khu muốn chuyển
+- jp : Auto pk Jaian ( phá nv25)
+- rf : Xóa all danh sách bạn bè 
+- rtd : Xóa all dánh sach thù địch
+- htl : Hồi sinh lượng 
+- ask : Auto nhiệm vụ từ 1-49 vào lớp Kiếm 
+- asu : Auto nhiệm vụ từ 1-49 vào lớp Kunai
+- ast : Auto nhiệm vụ từ 1-49 vào lớp Tiêu
+- asc : Auto nhiệm vụ từ 1-49 vào lớp Cung
+- asd : Auto nhiệm vụ từ 1-49 vào lớp Đao
+- asq : Auto nhiệm vụ từ 1-49 vào lớp Quạt
