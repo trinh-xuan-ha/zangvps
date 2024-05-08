@@ -1,0 +1,197 @@
+Hướng Dẫn Sử Dụng Phiên Bản GAME Trên VPS ZANGVPS
+
+(*) MICRO( Giả Lập ME) : mặc định đã bật chế độ tự động tối ưu, bạn có thể vào "auto" để tùy chọn cài đặt 
+(*) Khi auto tối ưu, màn sẽ màu đen, bạn chỉ cần click vào 1 lần là OK :D 
+(*) Muốn chuyển sang chế độ Giảm Dung Lượng( GDL ) bạn ấn vào auto -> tắt màu 
+
+(*) Up Yên hoặc Level bạn nên dùng bản ZNinjaPro, Up danh vọng Dùng bản DV Pro+Upgrade ( ZNinjaPro có Tool QLTK)
+(*) Tất cả các bản này đều Fix HP MP ảo, fix map 33,84 mượt mà, có lọc đồ... 
+(*) Bản ZNinjaPro là bản mượt nhất => xem full hướng dẫn tại đây : https://vpsgame.net/zninjapro/
+(*) (1) (2) là bản khác nhau ko trùng dữ liệu 
+
+___________________________________________________________________________________________
+
+ZNinjaPro Xem full hướng dẫn tại đây: https://vpsgame.net/zninjapro/
+
+___________________________________________________________________________________________
+
+(1) . Auto Pro x10 , Auto 1-20 FIX x10, auto nv49
+Lệnh chat auto từ 1-20:as10;as20
+Lệnh chat làm nhiệm vụ lv25 ( dắt trẻ): dt
+a20t vao phái tiêu, a20u vào kunai, a20k vào kiếm,
+a20q vào quạt, a20c vào cung, a20d vào đao
+Auto 1-20 nên dùng bản Auto 1-20 Fix x10
+Auto nhiệm vụ 49 chat nv49
+___________________________________________________________________________________________
+
+(2).Auto Sellpro (Xem hướng dẫn trong folder)
+___________________________________________________________________________________________
+
+(3).Auto Danh Vọng Pro + Đập đồ ( xem hd trên file)
+Có 2 file txt 
+HD_AUTO_DV.txt
+HD_PK_AM.txt 
+___________________________________________________________________________________________
+
+(4). Auto hang động 9x 3 lần 
+
+(*) Auto HD 9x 3 lần
+Chat hd để bật/tắt đi hd 2 lần
+sẽ đi vào 2h07 và 3h45 sáng( đã fix tránh lỗi hd theo nhóm)
+Chat ahd để đi hd ngay ( dùng lbhd sau chat)
+(*) Fix HP + MP ảo 
+(*) Fix Bơm HP MP 10s 1 lần ở bản cũ
+(*) Mặc định bật Giữ Level khi chat "Pk"
+(*) Fix luyện đá ảo
+(*) Fix map 33,84
+(*) Thêm PK âm tại map ( 80% đi pk)
+(*) Khoảng cách nhặt mặc định x300
+(*) Fix gọi phân thân
+---------------------------------------
+Lệnh chat new
+- addn để pt nhóm, thành viên chấp nhận, ok hết thì chủ nhóm chat sn là xong, thành viên k cần chat sn nữa.
+- info : hiển thị thông tin
+- ahdn : Đi hang động ngay theo nhóm 
+- hdpt : auto đi hd 2 lần theo nhóm ( nhóm trưởng chat là xong ) 
+mặc định nó sẽ đi hd đơn, bạn bật hiển thị info là thấy nó tắt hay bật
+ phải chat "hd" để bật  tính năng hd 9x 2 lần thì nó mới có tác dụng 
+- lbhd : auto dùng lệnh bài hang động ( dùng cái này là đi được 3 lần luôn, đi từ 2h07 đến 5h30 sáng mới xong) 
+- locdo : bật/tắt lọc đồ 
+- cai : cài giờ on/off 
+- on : bật chức năng on/off
+- houX: X là giờ mặc định đi hang động ( svv giữ nguyên k chat lệnh này) 
+- minX: X là phút mặc định cài đi hang động ( svv giữ nguyên k chat lệnh này) 
+- pk : tự bật/tắt glv và pk âm  
+- uppk: cài thông tin Pk âm, có chỉnh % PK âm , chỉ cần lưu 1 lần, thoát pb ra vẫn lưu 
+
+Lưu ý: 
++ 2 lệnh hou và min chỉ áp dụng cho server world vì khác giờ bảo trì so với code mặc định, ae cài hou8 min10 là ok ( svw nhé ) 
+________________________________________________________________________________________________________________________________________________________________________________
+
+
+(6). Auto Mua Đồ - dùng được cả ở ZNinjaPro nhé ( chỉ mua đồ thôi)
+ko mua được ngọc
+vào vật phẩm ko khóa đặt giá như sau, ví dụ mình mua ctt thì như sau:
+ctt 0 0 0 200 1 9999
+
+trong đó:
+ctt: tên vp cần mua
+0 0 0 : 3 số này mặc định
+200 1 9999 : nghĩa là 200k/viên và mua max 9999 viên
+
+sau đó chat Asell
+___________________________________________________________________________________________
+
+(7). Auto Bán Đồ ( Xem hướng dẫn Auto SellPro ở ngoài)
+___________________________________________________________________________________________
+
+(8). Auto PK Âm Cài Tọa Độ Map NEW
+Các lệnh :
+- uppk đe cài khu và máp kèm tọa độ
+- pk bật tắt chức năng tự pk.
+- apk đi pk lun
+- cpk để chờ bị pk
+- dpk để đánh acc cần pk âm
+Tọa độ X = Ngoài , Tọa độ Y = Trong
+
+___________________________________________________________________________________________
+
+(9).Auto UPPT ( Up phân thân) 
+Đã fix các lỗi
+-Fix HP + MP ảo.
+-Fix map 33,84.
+Tính năng
+-Tự gọi phân thân về up
+-Tự pt lại quạt buff
+-Full 9 server, cả server world Hỉo và Haru.
+-Bản này cũng có thể dùng để treo up làng cổ
+Cách Dùng : 
+
+Bước 1: Chuẩn bị sẵn phân thân lệnh, lưu tọa độ tại tone
+
+Lấy acc chủ thân chat "addn" để pt quạt buff
+Quạt buff đồng ý.
+
+Bước 2: Ra NPC trưởng làng tone chuyển sang THỨ THÂN 
+
+Acc THỨ THÂN vào tính năng -> tạo nhóm 
+Acc Quạt Buff sẽ tự xin vào nhóm 
+
+Bước 3 : THỨ THÂN chat GM+IDMap qua map up 
+ID map có thể lên treothue.com/idmap để xem
+Sau đó chat "tsn" để up
+
+Lưu ý:
+- Tắt TS khi hết MP 
+- Tắt Chuyển map hết boss, tàn sát map trống 
+- Bật sử dụng HP,MP khoảng 70% và 50%
+- Tắt auto mua thức ăn 
+- Nên sử dụng thức ăn nhiều ngày!
+
+___________________________________________________________________________________________
+
+(10).AUTO NTGT ( Xem hd tại folder chứa pb)
+___________________________________________________________________________________________
+
+(11).Auto Tặng Lượng 
+
+Lệnh chat:
+- kt : dùng để cài đặt số vé muốn tặng và ig muốn tặng, cài xong bạn lưu lại là được 
+- auto : Sau khi cài xong chat "auto" để tiến hành tặng lượng, acc sẽ chạy về trường Haruna
+
+**Lưu ý: 
+- Phiên bản này mình đã tắt Auto Lọc đồ ( tránh mất đồ, mình đã bị 1 lần mất đồ oan(do auto lọc đồ) nên đã Code lại 1 chút và cài cho AE dùng )
+___________________________________________________________________________________________
+
+
+(12). UP Làng Cổ PRO ( Có auto GD bằng lệnh chat)
+
+Phiên bản đã Fix HP MP ảo, fix next map... UP Làng Cổ khá ổn - Bản này do "vth" mod nhé (Vũ Thanh Hiếu)
+
+Bật đánh chuyển vị trí trong Menu Auto lên + Chat "avt" để thêm vị trí muốn auto ==> thêm vị trí xong chat "ak" là xong :D
+
+
+Các lệnh chat cần thiết :
+
+- "nhan" : để bật auto nhận đồ 
+- "hp" "mp" : để bật mua hp mp 
+- "hlct" : để bật ăn hlct
+- "cs" : để bật auto cừu sát
+- "clX" : để chỉnh ô auto mua cổ lệnh, vì ô mua cổ lệnh sẽ thay đổi vị trí khi có sự kiện 
++ Hiện tại ô đang là ô 28, bạn chat cl28 là được 
+
+**Hãy cẩn thận với auto mua Cổ Lệnh, check thật kĩ trước khi dùng, mình sẽ không chịu trách nhiệm khi bạn cài nhầm ô hoặc sự kiện hết đổi ô mua cổ lệnh)
+
+--------
+
+Lệnh giao dịch nhanh:
+
+- "ts" ; "tt" ; "tc" ; "ct" : để giao dịch nhanh ttts,tttt,tttc,ctt ( tử tinh thạch sơ, trung , cao, Chuyển tinh thạch) có trong hành trang
+- "ts" ; "tt" : giao dịch k hạn
+- "gds" ; "gdt" : giao dịch có hạn
+
+- TocdoX : lệnh gì ko nhớ rõ lắm :v 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

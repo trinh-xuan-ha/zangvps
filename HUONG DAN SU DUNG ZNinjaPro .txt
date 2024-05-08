@@ -1,0 +1,120 @@
+Lệnh Chat và tính năng ZNinjaPro ( có video Youtube AE chú ý xem)
+
+Lên Youtube tìm kiếm #ZNinjaPro 
+
+Các chức năng hỗ trợ:
+- Hỗ trợ quản lý account Game bằng QLTK - bạn hãy mở File ZNinja Pro hoặc ZNinja Pro - Shortcut( ngoài desktop) 
+- Hhi dùng QLTK thì thao tác cài đặt 100% trên đó, tránh thao tác từ game( ví dụ lưu PK âm, sẽ ko lưu lại, tuy nhiên bạn chỉ dùng Bản Java thôi thì vẫn dùng bình thường như các bản khác)
+- Auto hang động 9x 3 lần, có thể điều chỉnh theo ý muốn ( auto nhận rương HD)
+- Lọc đồ v2, có thể vứt đồ tại chỗ hoặc bán đồ tùy ý 
+- Auto tinh luyện, auto giao dịch đồ(bằng lệnh chat, ko auto gom), auto cất đồ, lấy đồ từ rương về hành trang và ngược lại
+- Hiển thị tốc độ up yên, map up, có thể bật/tắt theo ý muốn 
+- Hiển thị trang bị , dùng được item trang bị 2
+- Auto up làng cổ, mua cổ lệnh ko cần cài ô 
+- Auto PK người, cừu sát.. auto ăn Hoàn lương chi thảo khi đạt điểm hiếu chiến(tự cài được)
+- Fix 99% lỗi quạt buff (maybe)
+- Up phân thân cực ngon, fix HP MP ảo ( ngon hơn mấy bản hiện tại rất nhiều)
+- Auto mời nhóm từ xa, mời nhóm theo Ig chỉ định(chỉ cài ở tool QLTK) 
+- Bật/tắt hiển thị tên nhân vật, level,.. tên quái để các trùm chụp ảnh tránh bị lộ Ingame
+- Hồi sinh lượng cực mượt mà :v 
+- Cài sẵn tọa độ pk âm, chỉ cần bật giữ lv (Pk âm) mà ko cần làm gì thêm 
+- Chống ban IP bằng cách cài giờ on/off khi login quá nhiều acc 
+- Hiển thị và sử dụng full trang bị 2, thú cưỡi mới...
+- Update nhanh chóng phiên bản mới chỉ cần 1 click ( tool) 
+
+p/s: 
+- QLTK lưu thông tin acccount của bạn trong VPS - mình sẽ không chịu trách nhiệm với bất cứ vấn đề gì liên quan đến acc của bạn
+Hãy cân nhắc kĩ sử dụng, tránh để kẻ gian vào VPS, có thể sẽ mất hết thông tin acccount !!! 
+------------------------------------------------------------------- 
+
+1.Chức năng PK âm/Giữ Level 
+- pkam : Bật/tắt auto PK âm 
+- uppk : Cài đặt auto Pk âm
+- adpk : Auto đánh pk 
+- acpk : Auto chờ pk
+- atpk : Đi Pk âm luôn
+- glv : Bật/tắt auto giữ level. khi bật sẽ bật luôn PK âm 
+
+2. Chức năng auto Hang động 3x-9x ( đi HD bản sẽ tự nhận biết và đi theo đúng level)
+Lệnh chat
+- cdhd : Cài đặt các chức năng HD
+- ahd : Để đi hd luôn 
+* Nếu cài HD9x đi theo nhóm, tất các các acc phải cài giống nhau 
+Bật tự đi HD
+Bật đi hd theo nhóm 
+Bật up rương
+Và nhớ PT nhóm đầy đủ ( đã có HD) 
+
+Đối với 3x,4x,5x,7x cài giống như HD9x, còn 6x ae cho đi 1 mình nhé 
+ 
+3. Auto PK người 
+
+- pk : Bật/tắt auto Pk 
+- akn : Auto PK người tự tay mình điều khiển vị trí
+- akn1 : Auto PK người tự tele theo nhân vật cần pk ( có thể dùng để cừu sát )
+- akn2 : Auo Pk người tự tele tất cả nhân vật trong map ( trừ danh sách ko pk)
+- cs : Bật/tắt auto cừu sát 
+
+Các lệnh bổ trợ cho chức năng này:
+
+- acs + ig : Thêm người vào danh sách cừu sát 
+- apk + ig: Thêm người vào danh sách pk
+- aspk + ig: Thêm người vào danh sách không PK (an toàn)
+- dpk + ig: xóa khỏi danh sách Pk
+- dspk + ig: xóa khỏi danh sách an toàn pk
+
+4. Chức năng ZNinjaPro (Bạn có thể cài đặt ở ZNinjaPro trong game - cạnh Menu Auto)
+- yen : Bật/tắt hiển thị tốc độ up yên/level 
+- ig : Bật/tắt hiển thị tên nhân vật
+- hsl : Bật/tắt hồi sinh lượng 
+- cdld : Cài đặt auto lọc đồ ( có vứt đồ không khóa)
+- cdnhay : Cài đặt auto nhảy ( fix cho các server có ma, nhảy lên để không bị né quái )
+- hlct : Bật/tắt auto hoàn lương chi thảo 
+- hlctX : Set điểm hiếu chiến X mới dùng hoàn lương chi thảo ( có thể cài trong NinjaPro) 
+- hp : Bật/tắt auto mua hp 7x (chủ yếu dùng up LC)
+- mp : Bật/tắt auto mua mp 7x (chủ yếu dùng up LC)
+- map : Bật/tắt hiện tọa độ/map/khu 
+
+5. Chức năng auto giao dịch/cất đồ/lấy đồ khỏi rương ( ở QLTK sẽ có chức năng gom đồ sẵn )
+- gdX : Giao dịch vật phẩm có id X cho người đang trỏ vào
+- gdvp : Giao dịch tất cả vật phẩm không khóa cho người đang trỏ vào 
+- cat : Auto cất tất cả vp vào rương
+- lay : Auto lấy tất cả vp từ rương vào hành trang 
+- cdnhan : Cài đặt nhận vật phẩm
+- nhan : Auto nhận vật phẩm 
+- rutX : Rút id vật phẩm X ra khỏi rương ( 1 lần gd max 12 món/ và gd 1 lần)
+- rutall : Rút tất cả các vật phẩm từ hành trang ra giao dịch với người chat ( 1 lần gd max 12 món/ và gd 1 lần)
+
+6. Chức năng khác 
+- kzX : đổi khu X xong tele về tọa độ cũ đang đứng 
+- up : Cài hẹn giờ up 
+- cai : Cài giờ on/off 
+- loggd : xem log đã gd vp
+- lognhan : xem log đã nhận vp
+- ld : Lọc đồ nhanh 
+- anbossX : Ẩn Boss, có ID là X ( bật hiện tên quái lên, ở Menu ZNinjaPro ) 
+- hienbossX : Hiện Boss, có ID là X  ( áp dụng sau khi đã ẩn ) - chat xong out ra khỏi map nhé 
+
+7. Auto 1-30 ( server team) 
+- as10: auto nhiệm vụ đến level 10
+- as20: auto nhiệm vụ đến level 20
+- dt: auto nhiệm vụ dẫn trẻ level 25
+- a20t: auto vào phái tiêu lên lv20 -> nếu lên 30 chat a30t , các phái khác tương tự
+- a20u: auto vào phái kunai-> nếu lên 30 chat tương tự nhưng thay bằng số 30
+- a20k: auto vào phái kiếm
+- a20q: auto vào phái quạt
+- a20c: auto vào phái cung
+- a20d: auto vào phái đao
+
+8. Auto Lật Hình 
+- alh: Auto lật hình
+- cdld: Cài đặt lật hình
+
+9. Bật tắt xem thông tin acc ở QLTK 
+Lệnh chat xem 
+- xemxu : Xem yên và yên up được trung bình 1h
+- mapup : Xem map up
+- xemlv : Xem level và level upd được 1h
+- time : Xem thời gian còn lại ( cài time chat up, hoặc cài trong QLTK )
+
+
